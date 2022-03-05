@@ -1,1 +1,1 @@
-worker: npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+worker: node . --db 'mongodb+srv://DineshValor:4972@valor-whatsapp-bot-md.vn0pr.mongodb.net/Valor-Whatsapp-Bot-Md?retryWrites=true&w=majority'
